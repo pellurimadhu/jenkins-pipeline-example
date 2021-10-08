@@ -3,6 +3,7 @@
 pipeline {
     agent any
     tools {
+        'node-16.10.0'
     }
     stages {
         stage('Build') {
